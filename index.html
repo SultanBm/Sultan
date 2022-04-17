@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="../style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Lobster+Two:ital@1&family=Nunito:ital,wght@0,300;1,300;1,400&family=Permanent+Marker&family=Satisfy&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+ 
+  
+  <title>Frontend Mentor | E-commerce product page</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <!-- <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style> -->
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <h3 class="text-left">
+          <img src="../images/logo.svg"/>
+        </h3>
+        <div class="btn-group" role="group">
+           
+          <button class="btn btn-secondary" type="button">
+            Collections
+          </button> 
+          <button class="btn btn-secondary" type="button">
+            Men
+          </button> 
+          <button class="btn btn-secondary" type="button">
+            Women
+          </button> 
+          <button class="btn btn-secondary" type="button">
+            About
+          </button>
+          <button class="btn btn-secondary" type="button">
+            Contact
+          </button>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="dropdown">
+          <button class="dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown">
+            <img src="../images/image-avatar.png"/>
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+             <a class="dropdown-item disabled" href="#">Action</a> <a class="dropdown-item" href="#">Another action</a> <a class="dropdown-item" href="#">Something else here</a>
+          </div>
+        </div>
+      <div class="col-md-6">
+         <a id="modal-321518" href="#modal-container-321518" role="button" class="btnn" data-toggle="modal">
+
+          <img src="../images/icon-cart.svg"/>
+         </a>
+        
+        <div class="modal fade" id="modal-container-321518" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">
+                    <strong> Cart </strong>
+                </h5> 
+                <button class="bbtn" type="button" class="close" data-dismiss="modal">
+                  <span aria-hidden="true">x</span>
+                </button>
+              </div>
+              <div class="modal-body">
+                Your cart is empty.
+              </div>
+              </div>
+            </div>
+            
+          </div>
+          
+        </div>
+        
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <img  class="img1" alt="Product 1" src="../images/image-product-1.jpg"/>
+        <div class="carousel slide" id="carousel-329993">
+          <div class="carousel-inner">
+            <div class="carousel-item">
+              
+              <img class="thumb" alt="product 1 Thumbnail" src="../images/image-product-1.jpg" />
+              <div class="carousel-caption">
+               
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img class="thumb" alt="product 2 Thumbnail" src="../images/image-product-2-thumbnail.jpg" />
+              <div class="carousel-caption">
+              
+              </div>
+            </div>
+            <div class="carousel-item active">
+              <img class="thumb" alt="product 3 Thumbnail" src="../images/image-product-3-thumbnail.jpg" />
+              <div class="carousel-caption">
+              </div>
+              <div class="carousel-item active">
+                <img class="thumb" alt="product 4 Thumbnail" src="../images/image-product-4-thumbnail.jpg" />
+                <div class="carousel-caption">
+                 
+                </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+      <div class="paragraph">
+        <p>
+          <p style="color: rgb(240, 163, 31);" style="font-size: large;" id="content1">Sneakers Company </p><strong style="font-size: xx-large;" id="content2">Fall Limited Edition Sneakers</strong> <small id="content3">These low-profile sneakers are your perfect casual wear </small> <small id="content4"> companion. Featuring a 
+            durable rubber outer sole, they’ll </small> <small id="content5">everything the weather can offer.</small> 
+        </p>
+        <button type="button" class="addcart">
+           <img src ="../images/icon-cart.svg"/> Add to cart
+        </button>
+      </div>
+    </div>
+  </div>
+  
+ 
+
+  
+
+  
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sultan Beddah AL-Sehali </a>.
+  </div>
+</body>
+</html>

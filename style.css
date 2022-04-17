@@ -1,0 +1,153 @@
+body{
+
+    font-family: 'Nunito', sans-serif;  
+}
+.btn-secondary{
+    position:relative;
+    top: -45px;
+    right: 5px;
+    left: 200px;
+    border: none;
+    color: rgb(121, 116, 116);
+    background-color: white;
+    transition-duration: 0.4s;
+    font-family: 'Nunito', sans-serif;
+}
+.btn-secondary:hover{
+
+    border: none;
+    color:  rgb(240, 163, 31);
+    background-color: white;
+    font-family: 'Nunito', sans-serif; 
+    position:relative;
+    top: -45px;
+    right: 5px;
+    left: 200px;
+}
+
+.dropdown-toggle{
+    border-radius: 500px;
+
+    width: fit-content;
+    height: fit-content;
+    border-color:  rgb(240, 163, 31);
+    position:relative;
+    top: -80px;
+    right: 10px;
+    left: 1200px;
+    
+}
+.dropdown-toggle:hover{
+    border-radius: 500px;
+    width: fit-content;
+    height: fit-content;
+    border-color:  rgb(240, 163, 31);
+    position:relative;
+    top: -80px;
+    right: 10px;
+    left: 1200px;
+    box-shadow: 0px 0px 20px 3px  rgb(240, 163, 31);
+    
+}
+.btnn{
+
+    position:relative;
+    top: -159px;
+    right: 10px;
+    left: 1140px;
+    
+}
+.bbtn{
+    border: none;
+    color: rgb(121, 116, 116);
+    background-color: white;
+    
+}
+.bbtn:hover{
+    border: none;
+    color:  rgb(240, 163, 31);
+    background-color: white;
+    font-family: 'Nunito', sans-serif; 
+}
+.img1{
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    left: 250px;
+    top: -120px;
+    
+}
+.img1:hover{
+    height: 400px;
+    width: 400px;
+    box-shadow: 0px 0px 20px 3px  rgb(240, 163, 31);
+    border-radius: 10px;
+    
+}
+.thumb{
+
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+   justify-content: left;
+   justify-content: space-evenly;
+   float:right; 
+    display:inline;
+    border: solid;
+    border-color: rgb(240, 163, 31);  
+    margin-left: 10px;
+    position:relative;
+    top: -85px;
+    right:850px;
+    
+    
+}
+.thumb:hover{
+
+    height: 90px;
+    width: 90px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 3px rgb(78, 74, 73);
+    opacity: 0.2;
+}
+.addcart{
+
+    background-color: rgb(240, 163, 31);
+    border: none;
+    color: white;
+    font-family: 'Nunito', sans-serif; 
+    border-radius: 7px;
+    width: 250px;
+    height: 45px;
+    margin-top: 70px;
+    margin-left:150px;
+}
+.addcart:hover{
+
+    background-color:  rgb(240, 163, 31);
+    color: white;
+    font-family: 'Nunito', sans-serif; 
+    border: none;
+    border-radius: 7px;
+    box-shadow: 0px 0px 20px 3px  rgb(240, 163, 31);;
+}
+.paragraph{
+
+    position:relative;
+    top: -580px;
+    right: 10px;
+    left: 800px;
+}
+#content2:before{
+    content: "\a";
+    white-space: pre;
+}
+#content3:before{
+    content: "\a";
+    white-space: pre;
+}
+#content4:before{
+    content: "\a";
+    white-space: pre;
+}
